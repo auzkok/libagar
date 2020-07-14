@@ -134,7 +134,7 @@
 #   define _AGAR_CORE_DEFINED_SINT8
 #  endif
 #  ifndef Uint8
-#   define Uint8 u_int8_t
+#   define Uint8 uint8_t
 #   define _AGAR_CORE_DEFINED_UINT8
 #  endif
 #  ifndef Sint16
@@ -142,7 +142,7 @@
 #   define _AGAR_CORE_DEFINED_SINT16
 #  endif
 #  ifndef Uint16
-#   define Uint16 u_int16_t
+#   define Uint16 uint16_t
 #   define _AGAR_CORE_DEFINED_UINT16
 #  endif
 #  ifndef Sint32
@@ -150,7 +150,7 @@
 #   define _AGAR_CORE_DEFINED_SINT32
 #  endif
 #  ifndef Uint32
-#   define Uint32 u_int32_t
+#   define Uint32 uint32_t
 #   define _AGAR_CORE_DEFINED_UINT32
 #  endif
 #  ifdef AG_HAVE_64BIT
@@ -167,7 +167,7 @@
 #   endif
 #   ifndef Uint64
 #    if defined(HAVE_INT64_T)
-#     define Uint64 u_int64_t
+#     define Uint64 uint64_t
 #     define _AGAR_CORE_DEFINED_UINT64
 #    elif defined(HAVE___INT64)
 #     define Uint64 __int64
